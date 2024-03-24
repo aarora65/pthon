@@ -24,22 +24,14 @@ https://www.geeksforgeeks.org/underscore-_-python/
 Underscore _ is considered as "I don't Care" or "Throwaway" variable in Python
 
 The underscore _ is used for ignoring the specific values. If you don’t need the specific values or the values are not used, just assign the values to underscore.
-** Ignore a value when unpacking
-
-** Ignore the index
-
-[ ]
 # Ignore a value when unpacking
 x, _, y = (1, 2, 3)
-
 print("x-",x)
 print("y-", y)
 x- 1
 y- 3
 _ 2
-[ ]
 #Ignore the index
-
 # Say we want to print hello 5 times, we don't need index value
 
 for _ in range(5):
@@ -49,4 +41,6 @@ hello
 hello
 hello
 hello
-[ ]
+https://www.datacamp.com/tutorial/role-underscore-python
+
+Week 1 End1
