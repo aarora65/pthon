@@ -1,0 +1,52 @@
+Q 9: Disadvantages of Python.
+https://www.geeksforgeeks.org/disadvantages-of-python
+1. Slow Speed
+Python is a dynamically typed and interpreted language, as previously mentioned. Coding that is executed line by line frequently results in slow execution. Python's slow speed is also due to its dynamic nature, which necessitates additional work while executing code. Therefore, Python is not utilized for projects where speed is a significant factor.
+
+2. Not Memory Efficient
+Python must make a small tradeoff to make development simpler. Memory usage in the Python programming language is high. When we prefer memory optimization when building applications, this may be a drawback.
+
+3. Weak Mobile Computing
+Most of the time, server-side programming calls for Python. The following reasons prevent us from seeing Python in client-side or mobile applications: When compared to other languages, Python has a slower processing speed and uses too much memory.
+
+4. Database Access
+Python programming is simple and stress-free. However, the database lags behind when we interact with it. In comparison to popular technologies like JDBC and ODBC, Python's database access layer is primitive and underdeveloped. Python is rarely used in large businesses because of the complex legacy data interactions it requires.
+
+5. Runtime Errors
+Since Python is a language with dynamic typing, the data type of a variable can change at any time. Runtime errors can result from a variable containing an integer number holding a string in the future. As a result, applications must be thoroughly tested by Python programmers.
+
+
+
+Q12 What does _ variables represent in Python?
+GssksForGeeks Article
+https://www.geeksforgeeks.org/underscore-_-python/
+
+Underscore _ is considered as "I don't Care" or "Throwaway" variable in Python
+
+The underscore _ is used for ignoring the specific values. If you don’t need the specific values or the values are not used, just assign the values to underscore.
+** Ignore a value when unpacking
+
+** Ignore the index
+
+[ ]
+# Ignore a value when unpacking
+x, _, y = (1, 2, 3)
+
+print("x-",x)
+print("y-", y)
+x- 1
+y- 3
+_ 2
+[ ]
+#Ignore the index
+
+# Say we want to print hello 5 times, we don't need index value
+
+for _ in range(5):
+    print('hello')
+hello
+hello
+hello
+hello
+hello
+[ ]
